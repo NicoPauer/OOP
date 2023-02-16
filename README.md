@@ -2,10 +2,9 @@
 Many projects related with Object Oriented Programming
 
 # Description
-Copyright (c) Nico Pauer, February 16 of 2023
+Copyright (c) Nico Pauer, February 11 of 2023
 
-FirewallBlockerP is a project to block the internet access to determinated IP addresses  using a file
-with the blocked IP addresse. Use this only for learning this is not secure to real use.
+A class to determinate many Character's aspects like name or habilities.
 
 # Dependecies
-- Open JDK 6.0 or Greater
+- G++ 9.4.0 or Greater
