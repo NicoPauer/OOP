@@ -9,3 +9,4 @@ with the blocked IP addresse. Use this only for learning this is not secure to r
 
 # Dependecies
 - Open JDK 6.0 or Greater
+- Python 3 or Greater
