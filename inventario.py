@@ -2,7 +2,7 @@
 
 '''
 
- Autor: Nicolas Pauer, 10 de mayo al 16 de julio del 2023 v1.3.1
+ Autor: Nicolas Pauer, 10 de mayo al 16 de julio del 2023 v1.3.2
 
     Arma el inventario de productos con sus precios, nombre de
     producto, cantidad de unidades disponibles y su respectivo codigo.
@@ -93,7 +93,7 @@ class Inventario():
 
         if (type(producto) == 'int'):
           # Si es un codigo de producto lo busco en el inventario comparando al codigo de cada producto
-            for buscar in inventario:
+            for buscar in self.inventario:
               # Relizo la busqueda entre todos los productos del inventario
                 if (buscar.codigo == producto):
                   # Encontre que se registro el producto, sumo al cpnteo las unidades
