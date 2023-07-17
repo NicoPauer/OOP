@@ -2,7 +2,7 @@
 
 '''
 
- Autor: Nicolas Pauer, 10 de mayo de 2023 v1.3
+ Autor: Nicolas Pauer, 10 de mayo al 16 de julio del 2023 v1.3.1
 
     Arma el inventario de productos con sus precios, nombre de
     producto, cantidad de unidades disponibles y su respectivo codigo.
@@ -76,7 +76,7 @@ class Producto():
         inventario.close()
 
 
-def Inventario():
+class Inventario():
     '''
         Inventario con los distintos productos de la clase Producto.
     '''
