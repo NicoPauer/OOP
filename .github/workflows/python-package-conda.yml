@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: cd /home/runner/work/OOP/OOP/ && ls 
+      - run: python .\presidents.py
