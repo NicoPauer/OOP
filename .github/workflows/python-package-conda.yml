@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: python -e "print(32)"
+      - run: python -c "print(32)"
