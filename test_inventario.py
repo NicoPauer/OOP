@@ -3,8 +3,12 @@
 
 from inventario import Inventario
 
-def test_inventario():
-  
-  contado = Inventario()
+from invantario import Producto
 
-  assert contado.
+def test_inventario():
+
+  producto = Producto("Harina")
+  
+  contado = Inventario([producto, producto, producto])
+
+  assert contado.cantidad(producto) == 3
