@@ -7,7 +7,7 @@ from invantario import Producto
 
 def test_inventario():
 
-  producto = Producto("Harina")
+  producto = Producto("Harina", 1234)
   
   contado = Inventario([producto, producto, producto])
 
