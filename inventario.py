@@ -2,7 +2,7 @@
 
 '''
 
- Autor: Nicolas Pauer, 10 de mayo al 16 de julio del 2023 v1.3.2
+ Autor: Nicolas Pauer, 10 de mayo al 19 de julio del 2023 v1.3.2
 
     Arma el inventario de productos con sus precios, nombre de
     producto, cantidad de unidades disponibles y su respectivo codigo.
@@ -84,7 +84,7 @@ class Inventario():
 
         self.inventario = productos
 
-    def cantidad(producto):
+    def cantidad(self, producto):
         '''
             Cuenta cuanta unidades de un producto hay en el inventario.
         '''
